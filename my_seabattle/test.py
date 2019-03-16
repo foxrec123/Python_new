@@ -2,7 +2,7 @@
 def test():
     return 1
 
-def new_func()
+def new_func():
     return 'Alex'
 
 test()

@@ -1,5 +1,5 @@
 
-def test1():
+def test():
     return 1
 
-test1()
+test()

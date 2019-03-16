@@ -1,5 +1,5 @@
 
-def test_master():
+def test():
     return 1
 
-test_master()
+test()

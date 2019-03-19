@@ -8,6 +8,8 @@ def new_func():
 def ura():
     return 'ura'
 
+print('Hello')
+
 test()
 new_func()
 ura()

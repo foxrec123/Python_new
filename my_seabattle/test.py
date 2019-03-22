@@ -9,6 +9,7 @@ def ura():
     return 'ura'
 
 print('Hello')
+print(6+7)
 
 test()
 new_func()

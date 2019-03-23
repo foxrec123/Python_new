@@ -8,8 +8,12 @@ def new_func():
 def ura():
     return 'ura'
 
+<<<<<<< HEAD
 print('Hello')
 print(6+7)
+=======
+print('Victor')
+>>>>>>> new
 
 test()
 new_func()

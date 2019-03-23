@@ -11,8 +11,8 @@ def read_from_file(filename):
 
 
 if __name__ == '__main__':
-    write_to_file('D:/1.txt', 'Hello, Victor!')
-    read_from_file('D:/1.txt')
+    write_to_file(r'D:\1.txt', 'Hello, Victor!')
+    read_from_file(r'D:\1.txt')
 
 
 

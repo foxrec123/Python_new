@@ -74,7 +74,7 @@ def files(filename):
         f.close()
         return content
     except:
-        return '404'
+        return '', 404
 
 if __name__ == '__main__':
     app.run()

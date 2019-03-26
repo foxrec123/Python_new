@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1295cc9a-2a11-4983-b036-70f1142f2af1" name="Default" comment="completed">
-      <change afterPath="$PROJECT_DIR$/11/context_managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/10/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/New_homework$Simple_tasks.coverage" NAME="Simple_tasks Coverage Results" MODIFIED="1541881809915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
     <SUITE FILE_PATH="coverage/New_homework$hw3.coverage" NAME="hw3 Coverage Results" MODIFIED="1542485750132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3" />
     <SUITE FILE_PATH="coverage/New_homework$parse_data.coverage" NAME="parse_data Coverage Results" MODIFIED="1553366887195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9" />
-    <SUITE FILE_PATH="coverage/New_homework$context_managers.coverage" NAME="context_managers Coverage Results" MODIFIED="1553529757584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
+    <SUITE FILE_PATH="coverage/New_homework$context_managers.coverage" NAME="context_managers Coverage Results" MODIFIED="1553545116764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11" />
     <SUITE FILE_PATH="coverage/New_homework$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1551425678588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seabattle #1/seabattle #1" />
     <SUITE FILE_PATH="coverage/New_homework$classwork_task_2.coverage" NAME="classwork_task_2 Coverage Results" MODIFIED="1544818548857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5" />
     <SUITE FILE_PATH="coverage/New_homework$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1544818623220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5" />
@@ -42,13 +42,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11/context_managers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="27">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7/decorators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="1836">
               <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="12" />
             </state>
           </provider>
@@ -150,12 +162,12 @@
         <option value="$PROJECT_DIR$/10/flask_tasks.py" />
         <option value="$PROJECT_DIR$/10/practice_from_video.py" />
         <option value="$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/примеры решения дз #10/task #1/task #1/HW8_4.py" />
-        <option value="$PROJECT_DIR$/10/server.py" />
         <option value="$PROJECT_DIR$/11/context_managers.py" />
+        <option value="$PROJECT_DIR$/10/server.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="465" />
     <option name="y" value="295" />
     <option name="width" value="1295" />
@@ -169,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +207,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,7 +493,8 @@
       <workItem from="1553348604493" duration="80000" />
       <workItem from="1553348708505" duration="10201000" />
       <workItem from="1553363280519" duration="8605000" />
-      <workItem from="1553451493067" duration="11623000" />
+      <workItem from="1553451493067" duration="11937000" />
+      <workItem from="1553610668871" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1543523279802</created>
@@ -571,7 +584,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56273000" />
+    <option name="totallyTimeSpent" value="56824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,9 +597,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4900285" visible="true" weight="0.18791947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4900285" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.10134228" />
       <window_info id="Favorites" order="2" sideWeight="0.5099715" side_tool="true" weight="0.10939597" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -599,7 +611,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.78120804" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49932885" weight="0.592068" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.2917847" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32719547" />
@@ -990,16 +1002,6 @@
         <state relative-caret-position="-152" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/wtforms/validators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1033,10 +1035,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/course11/contexts/class_ex.py">
+    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/012 SQL/примеры решения дз #11/task #1/task #1/hw11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="297">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/context_managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1047,26 +1066,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/012 SQL/примеры решения дз #11/task #1/task #1/hw11.py">
+    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/course11/contexts/class_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="54">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7/decorators.py">
+    <entry file="file://$PROJECT_DIR$/10/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/context_managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="415">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

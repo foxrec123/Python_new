@@ -9,9 +9,9 @@ class Guests(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
 
-    name = db.Column(db.String(80), nullable=False)
-    adress = db.Column(db.String(80), nullable=False)
-    email = db.Column(db.String(80), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
+    adress = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), nullable=False)
 
 
 class GuestBookItem(db.Model):
@@ -22,7 +22,7 @@ class GuestBookItem(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     guest_id = db.Column(db.Integer, db.ForeignKey('guests.id'), nullable=False)
 
-    message = db.Column(db.String(80), nullable=False)
+    message = db.Column(db.String(100), nullable=False)
     date_and_time = db.Column(db.DateTime, default=datetime.now())
 
     object_is_deleted = db.Column(db.Boolean, default=False, nullable=False)

@@ -29,7 +29,7 @@ def maximum(str_1, str_2, str_3):
 #4. checking of file's existance
 @app.route('/existance/<path>')
 def does_file_exist(path):
-    dir_name =  r'C:/Иван/Python/New homework/8/'
+    dir_name =  r'C:/Иван/Python/New_homework/8/'
     filename = dir_name + path
     try:
         f = open(filename)

@@ -1,6 +1,6 @@
 
 
-DEBUG = True
+#DEBUG = True
 SECRET_KEY = 'should always be secret'
 
 # Database settings:

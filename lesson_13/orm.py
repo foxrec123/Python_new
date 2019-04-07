@@ -1,51 +1,44 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
-from datetime import date
 
 import lesson_13.config as config
+from datetime import datetime
 
+# from sys import path
+# path.append('C:/Иван/Python/New_homework/lesson_13')
 
 from sqlalchemy.sql import func
 
 app = Flask(__name__)
-app.config.update(config)
+app.config.from_object(config)
 
 db = SQLAlchemy(app)
 
-class Guests(db.Model):
-    '''
-    The class describes Guests table
-    '''
-
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-
-    name = db.Column(db.String(80), nullable=False)
-    adress = db.Column(db.String(80), nullable=False)
-    email = db.Column(db.String(80), nullable=False)
-
-
-class GuestBookItem(db.Model):
-    '''
-    The class describes Guests table
-    '''
-
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    guest_id = db.Column(db.Integer, db.ForeignKey('guests.id'), nullable=False)
-
-    message = db.Column(db.String(80), nullable=False)
-    date_and_time = db.Column(db.Date, default=date.today)
-
-    object_is_deleted = db.Column(db.Boolean, default=True, nullable=False)
-
-    #link
-    guest = db.relationship('Guests', foreign_keys=[guest_id, ])
-
-#main program
-if __name__ == '__main__':
+@app.route('/', methods=['GET'])
+def index():
+    from lesson_13.models import GuestBookItem, Guests
 
     people = GuestBookItem.query.join(Guests, Guests.id == GuestBookItem.guest_id).all()
+    return jsonify([p.to_dict() for p in people])
 
-    for p in people:
-       print(p.guest.name, ' ', p.message, ' ', p.date_and_time)
 
-    #app.run()
+@app.route('/create', methods=['POST'])
+def add_record():
+    from lesson_13.models import GuestBookItem
+    from lesson_13.forms import GuestBookForm
+
+    form = GuestBookForm(request.form)
+
+    if form.validate():
+
+        person = GuestBookItem(guest_id=form.guest_id.data,
+                               message=form.message.data)
+        db.session.add(person)
+        db.session.commit()
+
+    return 'Record has added! {}'.format(datetime.now())
+
+
+if __name__ == '__main__':
+
+    app.run()

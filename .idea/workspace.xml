@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1295cc9a-2a11-4983-b036-70f1142f2af1" name="Default" comment="completed">
-      <change afterPath="$PROJECT_DIR$/13/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_13/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_13/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/New homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New_homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/practice_from_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/10/practice_from_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/orm.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/orm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/New_homework$Simple_tasks.coverage" NAME="Simple_tasks Coverage Results" MODIFIED="1541881809915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1" />
     <SUITE FILE_PATH="coverage/New_homework$hw3.coverage" NAME="hw3 Coverage Results" MODIFIED="1542485750132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3" />
+    <SUITE FILE_PATH="coverage/New_homework$orm__1_.coverage" NAME="orm (1) Coverage Results" MODIFIED="1554657138967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_13" />
     <SUITE FILE_PATH="coverage/New_homework$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1551425678588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seabattle #1/seabattle #1" />
     <SUITE FILE_PATH="coverage/New_homework$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1544818623220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5" />
     <SUITE FILE_PATH="coverage/New_homework$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1543744716189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3" />
@@ -45,7 +50,50 @@
     <favorites_list name="New homework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_13/orm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_13/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_13/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,19 +163,23 @@
         <option value="$PROJECT_DIR$/9/reg_express.py" />
         <option value="$PROJECT_DIR$/9/parse_data.py" />
         <option value="$PROJECT_DIR$/10/flask_tasks.py" />
-        <option value="$PROJECT_DIR$/10/practice_from_video.py" />
         <option value="$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/примеры решения дз #10/task #1/task #1/HW8_4.py" />
         <option value="$PROJECT_DIR$/11/context_managers.py" />
         <option value="$PROJECT_DIR$/10/server.py" />
-        <option value="$PROJECT_DIR$/11/guess_a_number.py" />
         <option value="$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/simple_alchemy/app.py" />
         <option value="$PROJECT_DIR$/13/orm.py" />
         <option value="$PROJECT_DIR$/13/__init__.py" />
         <option value="$PROJECT_DIR$/13/config.py" />
+        <option value="$PROJECT_DIR$/10/practice_from_video.py" />
+        <option value="$PROJECT_DIR$/lesson_13/config.py" />
+        <option value="$PROJECT_DIR$/11/guess_a_number.py" />
+        <option value="$PROJECT_DIR$/lesson_13/forms.py" />
+        <option value="$PROJECT_DIR$/lesson_13/orm.py" />
+        <option value="$PROJECT_DIR$/lesson_13/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="465" />
     <option name="y" value="295" />
     <option name="width" value="1295" />
@@ -146,18 +198,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="New homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="New homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="New homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="New homework" type="462c0819:PsiDirectoryNode" />
-              <item name="13" type="462c0819:PsiDirectoryNode" />
+              <item name="7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="New homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="New homework" type="462c0819:PsiDirectoryNode" />
-              <item name="my_seabattle" type="462c0819:PsiDirectoryNode" />
+              <item name="8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New homework" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New homework" type="462c0819:PsiDirectoryNode" />
+              <item name="11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="New_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New homework" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/sqlalchemy_example/app.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/simple_alchemy/app.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -193,9 +260,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.orm">
+  <component name="RunManager" selected="Python.orm (1)">
     <configuration name="Functional" type="PythonConfigurationType" factoryName="Python">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -217,7 +284,7 @@
       <method v="2" />
     </configuration>
     <configuration name="context_managers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,7 +306,7 @@
       <method v="2" />
     </configuration>
     <configuration name="guess_a_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -262,7 +329,7 @@
       <method v="2" />
     </configuration>
     <configuration name="json (1)" type="PythonConfigurationType" factoryName="Python">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -284,7 +351,7 @@
       <method v="2" />
     </configuration>
     <configuration name="json" type="PythonConfigurationType" factoryName="Python">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -306,7 +373,7 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -327,8 +394,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="orm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="New_homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_13/orm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="orm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -350,7 +439,7 @@
       <method v="2" />
     </configuration>
     <configuration name="parse_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New homework" />
+      <module name="New_homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -371,46 +460,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reg_express" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New homework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9/reg_express.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.json" />
       <item itemvalue="Python.Functional" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.json (1)" />
-      <item itemvalue="Python.reg_express" />
       <item itemvalue="Python.parse_data" />
       <item itemvalue="Python.context_managers" />
       <item itemvalue="Python.guess_a_number" />
       <item itemvalue="Python.orm" />
+      <item itemvalue="Python.orm (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.orm (1)" />
         <item itemvalue="Python.orm" />
         <item itemvalue="Python.guess_a_number" />
         <item itemvalue="Python.context_managers" />
         <item itemvalue="Python.parse_data" />
-        <item itemvalue="Python.reg_express" />
       </list>
     </recent_temporary>
   </component>
@@ -454,6 +521,10 @@
       <workItem from="1553697466636" duration="3247000" />
       <workItem from="1553713811054" duration="4234000" />
       <workItem from="1554127794450" duration="8013000" />
+      <workItem from="1554149998849" duration="2808000" />
+      <workItem from="1554196914260" duration="1411000" />
+      <workItem from="1554198350069" duration="1560000" />
+      <workItem from="1554650318456" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1543523279802</created>
@@ -543,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72465000" />
+    <option name="totallyTimeSpent" value="82824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,14 +627,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4900285" visible="true" weight="0.19865772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4900285" visible="true" weight="0.16040269" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.10134228" />
       <window_info id="Favorites" order="2" sideWeight="0.5099715" side_tool="true" weight="0.10939597" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.21879195" weight="0.3286119" />
-      <window_info anchor="bottom" x="23" y="267" width="1490" height="289" id="Debug" order="3" sideWeight="0.85973155" side_tool="true" weight="0.48866856" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.20268457" visible="true" weight="0.38668555" />
+      <window_info anchor="bottom" x="23" y="267" width="1490" height="289" id="Debug" order="3" sideWeight="0.7973154" side_tool="true" weight="0.38668555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.32905984" />
@@ -721,62 +793,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/010 Flask/примеры решения дз #9/task #2/task #2/extract_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2100">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/009 Json, Интернет, Регулярные выражения, Практика/course9/flask_examples/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1484107286/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9/write_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9/parse_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9/reg_express.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9/json_req.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -803,13 +819,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/примеры решения дз #10/task #1/task #1/HW8_3.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/wtforms/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="298" column="8" selection-start-line="298" selection-start-column="8" selection-end-line="298" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/примеры решения дз #10/task #1/task #1/HW8_4.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,23 +870,6 @@
         <state relative-caret-position="-3433" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10/practice_from_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/011 Менеджеры контекста, Паттерны проектирования, Конфигурация Flask, Устройство request/course11/contexts/functional_ex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -889,16 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/context_managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,33 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/wtforms/fields/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11/guess_a_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/sqlalchemy/sql/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4876">
@@ -1034,23 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/sqlalchemy_example/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/simple_alchemy/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/sqlalchemy_example/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1065,31 +1003,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/13/config.py" />
+    <entry file="file://$PROJECT_DIR$/13/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/13/orm.py" />
+    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/sqlalchemy_example/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_13/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/practice_from_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/sqlalchemy_example/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="351">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#25#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/config.py">
+    <entry file="file://$PROJECT_DIR$/../[tceh] Разработчик на Python/013 Flask, ORM/course13/simple_alchemy/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="523">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13/orm.py">
+    <entry file="file://$PROJECT_DIR$/11/context_managers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="627">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_13/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11/guess_a_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/wtforms/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/wtforms/fields/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="1981" selection-start-line="1981" selection-end-line="1981" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/write_read.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_13/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_13/orm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_13/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

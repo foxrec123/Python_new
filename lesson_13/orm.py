@@ -42,8 +42,6 @@ def add_record():
         return jsonify(form.errors)
 
 
-
-
 if __name__ == '__main__':
 
     app.run()

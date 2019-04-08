@@ -36,7 +36,12 @@ def add_record():
         db.session.add(person)
         db.session.commit()
 
-    return 'Record has added! {}'.format(datetime.now())
+        return 'Record has added! {}'.format(datetime.now())
+    else:
+        print(type(form.errors))
+        return jsonify(form.errors)
+
+
 
 
 if __name__ == '__main__':
